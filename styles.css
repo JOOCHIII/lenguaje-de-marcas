@@ -4,21 +4,29 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    background-image: url(https://i.pinimg.com/originals/9d/8b/52/9d8b52d908edb0cb97a67bad2fe99701.jpg);
+    color: #a200ff;
+    margin: 50px;
+    opacity: 0.95;
+   border-top: #ff0000;
 }
 
 /* Estilo para el encabezado del artículo */
 article header {
-    background-color: #007bff;
-    color: #fff;
+    background-color: #0922ff;
+    color: #00ff40;
     padding: 1em 0;
     text-align: center;
+    overflow-y: scroll;
+    margin-top: 0ch;
 }
 
 /* Títulos */
 h1, h2 {
     margin-bottom: 0.5em;
+    text-shadow: #2600ff;
+    text-align: center;
+
 }
 
 /* Fecha del artículo */
@@ -29,7 +37,7 @@ article header time {
 
 /* Estilos para las secciones */
 section {
-    background-color: #fff;
+    background-color:rgba(44, 44, 44, 0.5);
     margin: 1em;
     padding: 1em;
     border-radius: 10px;
@@ -47,14 +55,17 @@ ul ul {
 
 /* Estilos para el formulario */
 form {
-    background-color: #f8f9fa;
+    background-color: #d3b925;
     padding: 1em;
     border-radius: 8px;
+    font-size: xx-large;
 }
 
 form label {
     display: block;
     margin-bottom: 0.5em;
+    margin-bottom: px;
+    border: 1px solid #1f18dc;
 }
 
 form input[type="text"],
@@ -68,7 +79,7 @@ form textarea {
 }
 
 form input[type="submit"] {
-    background-color: #28a745;
+    background-color: #000000;
     color: white;
     border: none;
     padding: 0.7em 2em;
@@ -78,7 +89,7 @@ form input[type="submit"] {
 }
 
 form input[type="submit"]:hover {
-    background-color: #218838;
+
 }
 
 /* Estilos para tablas */
@@ -86,6 +97,7 @@ table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 1em;
+    transition-duration: 6ms;
 }
 
 table, th, td {
@@ -99,16 +111,17 @@ th, td {
 
 thead {
     background-color: #007bff;
-    color: #fff;
+    color: #000000;
+    text-align: left;
 }
 
 /* Media queries para responsividad. Aún no hemos dado esto y solamente lo quiero mencionar. Busca su significado */
 /* aplicar estilos diferentes a un documento HTML en función de las características del 
 dispositivo en el que se visualiza la página, 
 principalmente basándose en el tamaño de la pantalla y la resolución. */
-@media (max-width: 600px) {
+@media (max-width: 6000px) {
     body {
-        background-color: #e3f2fd;
+        background-color: #007dd6;
     }
 
     article header {
